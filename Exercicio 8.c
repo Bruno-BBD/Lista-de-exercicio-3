@@ -48,7 +48,7 @@ int main() {
         scanf("%d %d", &linha, &coluna);
 
         if (linha < 1 || linha > SIZE || coluna < 1 || coluna > SIZE || tabuleiro[linha - 1][coluna - 1] != ' ') {
-            printf("Jogada inválida. Tente novamente.\n");
+            printf("Jogada invalida. Tente novamente.\n");
             continue;
         }
 
